@@ -1637,9 +1637,9 @@ dependencies = [
 
 [[package]]
 name = "git2"
-version = "0.20.2"
+version = "0.20.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2deb07a133b1520dc1a5690e9bd08950108873d7ed5de38dcc74d3b5ebffa110"
+checksum = "7b88256088d75a56f8ecfa070513a775dd9107f6530ef14919dac831af9cfe2b"
 dependencies = [
  "bitflags",
  "libc",
@@ -2068,7 +2068,7 @@ dependencies = [
  "libc",
  "mio",
  "postcard",
- "rand 0.9.3",
+ "rand 0.9.5",
  "rustc-hash 2.1.1",
  "serde_core",
  "tempfile",
@@ -2305,9 +2305,9 @@ dependencies = [
 
 [[package]]
 name = "libgit2-sys"
-version = "0.18.2+1.9.1"
+version = "0.18.8+1.9.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "1c42fe03df2bd3c53a3a9c7317ad91d80c81cd1fb0caec8d7cc4cd2bfa10c222"
+checksum = "7f7c568b25d7489bc3fb2988ed69ab111d2944d2f5fec3d5c987fe545ea97b50"
 dependencies = [
  "cc",
  "libc",
@@ -3259,9 +3259,9 @@ dependencies = [
 
 [[package]]
 name = "rand"
-version = "0.9.3"
+version = "0.9.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7ec095654a25171c2124e9e3393a930bddbffdc939556c914957a4c3e0a87166"
+checksum = "b9ef1d0d795eb7d84685bca4f72f3649f064e6641543d3a8c415898726a57b41"
 dependencies = [
  "rand_chacha",
  "rand_core 0.9.3",
@@ -3572,7 +3572,7 @@ name = "rustc_abi"
 version = "0.0.0"
 dependencies = [
  "bitflags",
- "rand 0.9.3",
+ "rand 0.9.5",
  "rand_xoshiro",
  "rustc_data_structures",
  "rustc_error_messages",
@@ -4209,7 +4209,7 @@ dependencies = [
 name = "rustc_incremental"
 version = "0.0.0"
 dependencies = [
- "rand 0.9.3",
+ "rand 0.9.5",
  "rustc_data_structures",
  "rustc_errors",
  "rustc_fs_util",
@@ -4264,7 +4264,7 @@ dependencies = [
 name = "rustc_interface"
 version = "0.0.0"
 dependencies = [
- "rand 0.9.3",
+ "rand 0.9.5",
  "rustc_abi",
  "rustc_ast",
  "rustc_ast_lowering",
@@ -4893,7 +4893,7 @@ dependencies = [
  "crossbeam-deque",
  "crossbeam-utils",
  "libc",
- "rand 0.9.3",
+ "rand 0.9.5",
  "rand_xorshift",
  "scoped-tls",
  "smallvec",
@@ -5679,7 +5679,7 @@ version = "0.1.0"
 dependencies = [
  "indicatif",
  "num",
- "rand 0.9.3",
+ "rand 0.10.1",
  "rand_chacha",
  "rayon",
 ]
